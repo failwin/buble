@@ -1,5 +1,9 @@
 # buble changelog
 
+## 0.19.3-fix (2018-05-04)
+
+* Added suppor IE10+ 
+
 ## 0.19.3 (2018-02-13)
 
 * Make sure browser builds are actually valid ES5 (except for the modules build)
