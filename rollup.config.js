@@ -23,7 +23,7 @@ const createConfig = (opts) => {
 			json(),
 			commonjs(),
 			buble({
-				target: !browser ? { node: 4 } : null,
+				target: !browser ? { node: 4 } : { ie: 10 }},
 				include: [
 					'src/**',
 					'node_modules/regexpu-core/**',
